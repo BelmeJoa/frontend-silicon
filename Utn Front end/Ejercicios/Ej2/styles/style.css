@@ -1,0 +1,19 @@
+body {
+    background-color: #3a3939;
+}
+
+h1 {
+    font-size: 120px ;
+    font-family: sans-serif;
+    font-weight: 800 ;
+    color: #e2f7e1;
+}
+p { 
+    font-size: 48px;
+    font-weight: 600;
+    font-family: monospace;
+    color: #e2f7e1;
+}
+span {
+    color: green;
+}

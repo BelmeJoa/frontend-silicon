@@ -1,0 +1,29 @@
+h1{
+    font-family: Impact;
+    font-size: 80px;
+}
+p{
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color:#00aae4 ;
+}
+.span-1 {
+    font-style: italic;
+}
+.p2{
+    font-weight: bold;
+}
+.p3 {
+     font-family: Verdana;
+     font-style: italic;
+   
+}
+.span-2 {
+    font-style: italic;
+
+}
+.span-3 {
+    font-weight: bold;
+}
