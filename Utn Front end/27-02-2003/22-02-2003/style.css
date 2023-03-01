@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, main, footer {
+    padding: 20px;
+}
+/* Estilos header */
+header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+header nav ul li {
+    background-color: rgb(3, 75, 97);
+    padding: 10px;
+    color: aliceblue;
+}
+/* estilos main */
+main {
+    background-color: coral;
+    display: flex;
+    min-height: 100vh;
+}
+.title-grid {
+    background-color: rgb(43, 57, 83);
+}
+.cont-section {
+    background-color: darkred;
+    color: aliceblue;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+.cont-aside {
+    background-color: blueviolet;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+}
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    min-height: 100vh;
+}
+.card {
+    background-color: rgb(39, 85, 85);
+    width: 90px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+/* estilos footer */
+footer {
+    background-color: cadetblue;
+    text-align: center;
+    border-top: 2px solid black;
+}
+/* responsive disane para celulares */
+@media(max-width:480px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+    header h1 {
+        margin: 15px 0;
+
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    .cont-aside, .cont-section {
+        width:100% ;
+    }
+    .cont-section {
+        order: -1;
+    }
+}

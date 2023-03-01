@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Shantell Sans', cursive;
+    font-size: 40px;
+    text-align: center;
+    min-height: 100vh;
+}
+@media (min-width:600px) and (max-width:900px) {
+    h1 {
+        font-size: 32px;
+    }
+    body {
+        background-color: darkkhaki;
+    }
+}
+@media (max-width:600px) {
+    h1 {
+        font-size: 24px;
+    }
+    body {
+        background-color: brown;
+    }
+}
